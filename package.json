@@ -1,0 +1,24 @@
+{
+  "name": "@alopwer/react-cli-helper",
+  "version": "1.0.0",
+  "description": "A CLI to word with react files faster",
+  "main": "src/index.js",
+  "keywords": [
+    "cli",
+    "react-cli",
+    "create-react",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "alopwer",
+  "license": "ISC",
+  "bin": {
+    "react-helper-cli": "bin/index.js"
+  },
+  "dependencies": {
+    "arg": "^5.0.1",
+    "esm": "^3.2.25"
+  }
+}
